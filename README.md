@@ -1,6 +1,6 @@
 # Welcome to GitHub
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+This project is a replica of the "Homematic IP Window / Door Contact – invisible installation". It is based on the firmware of https://asksinpp.de. 
 
 ## Repositories
 
