@@ -1,40 +1,40 @@
-# Homematic-Sensor-invisible-installation
+# Homematic Fensterkontakt – verdeckter Einbau
 
-This project is a replica of the "Homematic IP Window / Door Contact – invisible installation". It is based on the firmware of https://asksinpp.de. 
+Dieses Projekt bassiert auf der Bibliothek AskSinPP (https://asksinpp.de). Es handelt sich hierbei um einen Nachbau des "Homematic IP Fenster- und Türkontakt – verdeckter Einbau" welcher für den unsichtbaren Einbau im Fenster konzipiert wurde.
+
 
 ## Material
 
-You need for the project an Arduino Pro Mini 3.3V, an 868 Mhz module (CC1101). 
+Für das Projekt wird ein Arduino Pro Mini 3,3V, ein 868 MHZ Modul (CC1101), 
+
+| Anzahl | Typ |
+| ------------------ | ------------------ |
+| 1 | Arduino Pro Mini 3,3V |
+| 1 | CC1101 Modul (868 Mhz) |
+| 2 | 0805 SMD Widerstand |
+| 1 | 0603 SMD LED grün |
+| 1 | 0603 SMD LED rot |
+| 1 | SMD-Kurzhubtaster, 4,2 x 2,8 mm |
 
 
+## Hardware
 
-## Describe your project
+Alle genannten Bauteile müssen an der dafür vorgesehene Stelle verlöten werden. (Siehe Bilder/Schaltplan)
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
+## Software
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+Als Sketch findet folgender Anwendung: https://github.com/jp112sdl/Beispiel_AskSinPP/blob/master/examples/HM-SEC-SC/HM-SEC-SC.ino
+Für das flashen muss man sich an die allgemeine Anleitung halten: https://asksinpp.de/Grundlagen/02_software.html
 
-## Your first website
 
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
+## Gehäuse
 
-[Learn more about GitHub Pages](https://pages.github.com/)
+Für das Gehäuse findet ein 3D Druckteil Anwendung, welches von Thingiverse heruntergeladen werden kann.
 
-## Rename this repository to publish your site
 
-We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
+[Thingiverse](https://www.thingiverse.com)
 
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
 
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
-
-Under the **Repository Name** heading, type: `username.github.io`, where username is your username on GitHub. Then click **Rename**—and that’s it. When you’re done, click your repository name or browser’s back button to return to this page.
-
-<img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
-
-Once you click **Rename**, your website will automatically be published at: https://your-username.github.io/. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
-
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
 
 ## Making your first edit
 
