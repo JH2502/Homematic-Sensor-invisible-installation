@@ -33,7 +33,7 @@ Für das flashen muss man sich an die allgemeine Anleitung halten: https://asksi
 
 Für das Gehäuse findet ein 3D Druckteil Anwendung, welches von Thingiverse heruntergeladen werden kann.
 
-[Thingiverse](https://www.thingiverse.com)
+[Thingiverse](https://www.thingiverse.com/thing:4462608)
 
 
 ## Aufbau
